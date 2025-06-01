@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="35dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VistaBotones">
+
+    <!-- 1) Botón para “Pagar” -->
+    <Button
+        android:id="@+id/btnPagar"
+        android:text="Pagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 2) Botón para “Pagos Realizados” -->
+    <Button
+        android:id="@+id/btnPagosRealizados"
+        android:text="Pagos Realizados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 3) Botón para “Pagos Pendientes” -->
+    <Button
+        android:id="@+id/btnPagosPendientes"
+        android:text="Pagos Pendientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 4) Botón para “Historial” -->
+    <Button
+        android:id="@+id/btnHistorial"
+        android:text="Historial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

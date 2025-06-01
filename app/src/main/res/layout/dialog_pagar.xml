@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/containerDialog"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Número de cuota -->
+        <TextView
+            android:id="@+id/tvNumCuotaDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuota #X"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Monto de la cuota -->
+        <TextView
+            android:id="@+id/tvMontoDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monto: S/ 0.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Fecha (solo mostrar la fecha actual) -->
+        <TextView
+            android:id="@+id/tvFechaDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha: YYYY-MM-DD"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Penalidad (si aplica) -->
+        <TextView
+            android:id="@+id/tvPenalidadDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penalidad: S/ 0.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Elección de medio de pago -->
+        <TextView
+            android:id="@+id/tvMedioTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medio de pago"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <RadioGroup
+            android:id="@+id/rgMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rbEfectivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efectivo" />
+
+            <RadioButton
+                android:id="@+id/rbDeposito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depósito"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <!-- Botón Confirmar -->
+        <Button
+            android:id="@+id/btnConfirmarPagoDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar" />
+
+    </LinearLayout>
+</ScrollView>

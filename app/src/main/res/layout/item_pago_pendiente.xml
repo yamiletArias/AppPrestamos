@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvNumCuotaPendiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuota #1"
+        android:textSize="16sp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/tvFechaVencimiento"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="2025-07-01"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvMontoPendiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S/ 338.48"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Número de cuota -->
+    <TextView
+        android:id="@+id/tvNumCuotaPagoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuota #1"
+        android:textSize="16sp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Fecha del pago -->
+    <TextView
+        android:id="@+id/tvFechaPagoItem"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="2025-05-17"
+        android:textSize="16sp" />
+
+    <!-- Monto pagado -->
+    <TextView
+        android:id="@+id/tvMontoPagoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S/ 338.48"
+        android:textSize="16sp" />
+</LinearLayout>
